@@ -11,8 +11,11 @@ let person = {
 
 // TODO: Write a function to update the person's city
 function updateCity(person, newCity) {
-  // your code here
-}
+person.city = newCity;
+newCity = "LA"  
+};
+  console.log(person.city);
+
 
 // updateCity(person, "Los Angeles");
 // console.log("Updated Person:", person);
